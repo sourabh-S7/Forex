@@ -23,7 +23,8 @@
       "permissions": [
         "android.permission.RECEIVE_BOOT_COMPLETED",
         "android.permission.WAKE_LOCK"
-      ]
+      ],
+      "package": "com.sourabh7.Forex"
     },
     "web": {
       "favicon": "./assets/favicon.png"
@@ -40,6 +41,11 @@
     "notification": {
       "icon": "./assets/icon.png",
       "color": "#3B82F6"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "bbbba7f2-9c96-4594-a990-26dcc1c8e5af"
+      }
     }
   }
 }
